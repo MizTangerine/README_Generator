@@ -77,7 +77,8 @@ const questions = [
     {
         type: 'input',
         message: 'Location of screenshot:',
-        name: 'screenshot'
+        name: 'screenshot',
+        default: 'assets/LandingPage.png'
     },
     {
         type: 'list',
@@ -116,7 +117,8 @@ function init() {
     inquirer
         .prompt(questions)
         .then(function (response) {
-            console.log('HERE:', generator(response))
+            console.log(generator(response))
+
         })
 }
 
