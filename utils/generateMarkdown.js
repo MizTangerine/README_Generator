@@ -1,7 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  console.log('sanity check', data)
-  return `# ${data.title}
+  console.log('data', data)
+  return `# Title ${data.title}
 just checking
 `;
 }
