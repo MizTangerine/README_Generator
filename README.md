@@ -26,6 +26,8 @@ Application is invoked with command: node index.js
 
 Your generated README will be located in a file called 'exampleREADME.md'
 
+A [video](https://drive.google.com/file/d/1y1q5u8KCXu8cWet2M5Qk1UXe21v2ePDK/view?usp=sharing) demonstrating the functionality.
+
 ## License
 
 MIT License

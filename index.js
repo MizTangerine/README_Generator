@@ -104,7 +104,7 @@ const questions = [
             if (valid) {
                 return true;
             } else {
-                console.log(".  Please enter a valid email")
+                console.log("Please enter a valid email")
                 return false;
             }
         }

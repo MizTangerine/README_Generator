@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   // ***Required Section
   let required = `# ${data.title}
 
-![languages](https://img.shields.io/github/languages/count/${data.user}/${data.repo}) ![top_language](https://img.shields.io/github/languages/top/${data.user}/${data.repo}) ![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-blue.svg)
+![languages](https://img.shields.io/github/languages/count/${data.user}/${data.repo}) ![top_language](https://img.shields.io/github/languages/top/${data.user}/${data.repo}) ![License: ${data.license}](https://img.shields.io/badge/License-${(data.license).replace(/\s/g, "%20")}-blue.svg)
 
 ## Description
 
