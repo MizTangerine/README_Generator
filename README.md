@@ -1,12 +1,12 @@
-# Testing
+# CLI README Generator
 
-![languages](https://img.shields.io/github/languages/count/clarissareeve/PersonalPortfolio) ![top_language](https://img.shields.io/github/languages/top/clarissareeve/PersonalPortfolio) ![License: MIT License](https://img.shields.io/badge/License-MIT License-blue.svg)
+![languages](https://img.shields.io/github/languages/count/clarissareeve/README_Generator) ![top_language](https://img.shields.io/github/languages/top/clarissareeve/README_Generator) ![License: MIT License](https://img.shields.io/badge/License-MIT%20License-blue.svg)
 
 ## Description
 
-really, you are going to make me do this?
+This is a command-line interface utilizingThis is a Command-Line Interface utilizing Inquirer JS, used to generate a README in a less time consuming manner.
 
-![Landing Page](assets/LandingPage.png)
+![Example](assets/Example.mp4)
 
 ## Table of Contents
 
@@ -18,17 +18,19 @@ really, you are going to make me do this?
 
 ## Installation
 
-I don't know
+Run `npm init` to begin using.
 
 ## Usage
 
-not a clue
+Application is invoked with command: node index.js
+
+Your generated README will be located in a file called 'exampleREADME.md'
 
 ## License
 
 MIT License
 
-Copyright (c) 2020 clarissa
+Copyright (c) 2020 Clarissa Reeve
 
 ## Contributing
 
@@ -40,5 +42,4 @@ For any questions the author can be contacted at:
 
 GitHub: @[clarissareeve](https://github.com/clarissareeve)
 
-Email: cl@ris.sa
-
+Email: clarissa.reeve@gmail.com

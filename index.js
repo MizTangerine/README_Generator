@@ -127,7 +127,7 @@ function init() {
         .prompt(questions)
         .then(function (response) {
             // console.log('response:', generator(response))
-            return writeToFile('readme.md', generator(response))
+            return writeToFile('exampleREADME.md', generator(response))
         })
 }
 
