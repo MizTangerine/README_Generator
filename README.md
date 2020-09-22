@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a command-line interface utilizingThis is a Command-Line Interface utilizing Inquirer JS, used to generate a README in a less time consuming manner.
+This is a Command-Line Interface utilizing Inquirer JS, used to generate a README in a less time consuming manner.
 
 ![Example](assets/Example.gif)
 
