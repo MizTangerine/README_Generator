@@ -1,6 +1,6 @@
 # README Generator
 
-![languages](https://img.shields.io/github/languages/count/clarissareeve/README_Generator) ![top_language](https://img.shields.io/github/languages/top/clarissareeve/README_Generator) ![License: MIT License](https://img.shields.io/badge/License-MIT License-blue.svg)
+![languages](https://img.shields.io/github/languages/count/clarissareeve/README_Generator) ![top_language](https://img.shields.io/github/languages/top/clarissareeve/README_Generator) ![License: MIT License](https://img.shields.io/badge/License-MIT%20License-blue.svg)
 
 ## Description
 
