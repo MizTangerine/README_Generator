@@ -5,9 +5,8 @@ const util = require('util');
 
 // ***internal packages
 const generator = require("./utils/generateMarkdown.js");
-const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// array of questions for user
+// ***array of questions for user
 const questions = [
     {
         type: 'input',
@@ -66,6 +65,12 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'Location of screenshot:',
+        name: 'screenshot',
+        default: 'assets/LandingPage.png'
+    },
+    {
+        type: 'input',
         message: 'Installation Instructions:',
         name: 'installation'
     },
@@ -75,16 +80,20 @@ const questions = [
         name: 'usage'
     },
     {
-        type: 'input',
-        message: 'Location of screenshot:',
-        name: 'screenshot',
-        default: 'assets/LandingPage.png'
-    },
-    {
         type: 'list',
         message: 'Which license would you like to use?',
         name: 'license',
         choices: ['MIT License', 'GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense']
+    },
+    // {
+    //     type: 'input',
+    //     message: "How other developers can contribute:",
+    //     name: 'contributing'
+    // },
+    {
+        type: 'input',
+        message: "Tests and Examples:",
+        name: 'tests'
     },
     {
         type: 'input',
@@ -102,7 +111,7 @@ const questions = [
     },
 ];
 
-// function to write README file
+// ***function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
@@ -112,16 +121,15 @@ function writeToFile(fileName, data) {
     })
 }
 
-// function to initialize program
+// ***function to initialize program
 function init() {
     inquirer
         .prompt(questions)
         .then(function (response) {
-            console.log(generator(response))
-
+            // console.log('response:', generator(response))
+            return writeToFile('readme.md', generator(response))
         })
 }
 
-
-// function call to initialize program
+// ***function call to initialize program
 init();
