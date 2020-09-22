@@ -6,7 +6,7 @@
 
 This is a command-line interface utilizingThis is a Command-Line Interface utilizing Inquirer JS, used to generate a README in a less time consuming manner.
 
-![Example](assets/Example.mp4)
+![Example](assets/Example.gif)
 
 ## Table of Contents
 
