@@ -1,7 +1,6 @@
 // ***external packages
 const inquirer = require("inquirer");
 const fs = require('fs');
-const util = require('util');
 
 // ***internal packages
 const generator = require("./utils/generateMarkdown.js");
@@ -62,6 +61,12 @@ const questions = [
             }
             return true;
         }
+    },
+    {
+        type: 'confirm',
+        name: 'link',
+        message: 'Add a link to the live page?',
+        default: true,
     },
     {
         type: 'input',
