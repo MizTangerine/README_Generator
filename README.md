@@ -4,7 +4,9 @@
 
 ## Description
 
-This is a Command-Line Interface utilizing Inquirer JS, used to generate a README in a less time consuming manner.
+This is a Command-Line Interface utilizing Inquirer JS, used to generate a README in a more efficient manner.
+
+Link to Repo: [GitHub Repo](https://github.com/clarissareeve/README_Generator)
 
 ![Example](assets/Example.gif)
 
@@ -22,9 +24,9 @@ Run `npm init` to begin using.
 
 ## Usage
 
-Application is invoked with command: node index.js
+Application is invoked with command: `node index.js` or `npm start`.
 
-Your generated README will be located in a file called 'exampleREADME.md'
+The generated README will be located in a file named 'exampleREADME.md'
 
 A [video](https://drive.google.com/file/d/1y1q5u8KCXu8cWet2M5Qk1UXe21v2ePDK/view?usp=sharing) demonstrating the functionality.
 

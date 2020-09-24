@@ -8,7 +8,7 @@ CLI utilizing Inquier JS to generate a README.
 
 Link to live site: [README Generator](https://clarissareeve.github.io/README_Generator/)
 
-![Landing Pasge](assets/LandingPage.png)
+![Landing Page](assets/LandingPage.png)
 
 ## Table of Contents
 
