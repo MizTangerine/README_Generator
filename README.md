@@ -20,7 +20,7 @@ Link to Repo: [GitHub Repo](https://github.com/clarissareeve/README_Generator)
 
 ## Installation
 
-Run `npm init` to begin using.
+Run `npm init` to install dependencies.
 
 ## Usage
 
