@@ -1,12 +1,14 @@
 # README Generator
 
-![languages](https://img.shields.io/github/languages/count/clarissareeve/README_Generator) ![top_language](https://img.shields.io/github/languages/top/clarissareeve/README_Generator) ![License: MIT License](https://img.shields.io/badge/License-MIT%20License-blue.svg)
+![languages](https://img.shields.io/github/languages/count/clarissareeve/README_Generator) ![top_language](https://img.shields.io/github/languages/top/clarissareeve/README_Generator) ![License: The Unlicense](https://img.shields.io/badge/License-The%20Unlicense-blue.svg)
 
 ## Description
 
-This is a quick CLI README Generator utilizing Inquirer JS.
+CLI utilizing Inquier JS to generate a README.
 
-![Landing Page](assets/LandingPage.png)
+Link to live site: [README Generator](https://clarissareeve.github.io/README_Generator/)
+
+![Landing Pasge](assets/LandingPage.png)
 
 ## Table of Contents
 
@@ -18,15 +20,15 @@ This is a quick CLI README Generator utilizing Inquirer JS.
 
 ## Installation
 
-Use 'npm init' to install the dependencies.
+Run 'npm init' to install dependencies.
 
 ## Usage
 
-'node index.js' will initiate the application. The new file will be called exampleREADME.md
+Application is invoked with command: 'node index.js' or 'npm start'. The generated README will be located in a file named 'exampleREADME.md'
 
 ## License
 
-MIT License
+The Unlicense
 
 Copyright (c) 2020 Clarissa Reeve
 

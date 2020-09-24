@@ -15,9 +15,8 @@ function generateMarkdown(data) {
     toc += `
 * [Usage](#usage)` };
 
-  if (data.contributing !== '') {
-    toc += `
-* [Contributing](#contributing)` };
+  toc += `
+* [Contributing](#contributing)`;
 
   if (data.tests !== '') {
     toc += `
@@ -36,7 +35,14 @@ function generateMarkdown(data) {
 ## Description
 
 ${data.description}
+`;//closing
 
+  if (data.link) {
+    required += `
+Link to live site: [${data.title}](https://${data.user}.github.io/${data.repo}/)
+`};
+
+  required += `
 ![Landing Page](${data.screenshot})
 `;//closing
 
